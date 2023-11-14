@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "acf-html"
+version = "0.1.0"
+description = ""
+authors = ["William Sampaio <56176702+WilliamSampaio@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.15.2"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
